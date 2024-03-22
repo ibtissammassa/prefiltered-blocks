@@ -1,0 +1,11 @@
+name: 'Prefiltered Blocks by Taconomy'
+type: module
+description: 'Provides prefiltered blocks for displaying related and latest content.'
+core_version_requirement: ^10
+package: Custom block
+
+dependencies:
+  - drupal:block
+
+module:
+  version: '1.0'
