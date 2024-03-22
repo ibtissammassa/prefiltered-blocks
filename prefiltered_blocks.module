@@ -1,0 +1,14 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function prefiltered_blocks_theme($existing, $type, $theme, $path) {
+    return [
+        'related' => [
+          'variables' => [
+            'nodes' => [],
+          ],
+        ],
+      ];
+}

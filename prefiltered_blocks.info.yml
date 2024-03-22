@@ -1,8 +1,11 @@
-name: 'Prefiltered Blocks by Taconomy'
+name: 'Prefiltered Blocks by Taxonomy'
 type: module
 description: 'Provides prefiltered blocks for displaying related and latest content.'
 core_version_requirement: ^10
 package: Custom block
+
+libraries:
+  - prefiltered_blocks/layout-styling
 
 dependencies:
   - drupal:block
