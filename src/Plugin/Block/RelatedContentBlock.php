@@ -55,7 +55,7 @@
         $taxonomy_field_name = $this->getTaxonomyFieldName($node);
 
         if (empty($taxonomy_field_name)) {
-            return ['#markup' => $this->t('No related content found.')];
+            return ['#markup' => $this->t('No theme found.')];
         }
 
         // Get the term IDs associated with the current node
@@ -90,6 +90,7 @@
             '#theme' => 'related',
             '#nodes' => $content,
           ];
+          $build['#cache']['max-age'] = 0;
           return $build;	
         
           }

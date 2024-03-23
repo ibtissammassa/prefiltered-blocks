@@ -1,3 +1,7 @@
 view related content:
   title: 'view related content block'
   description: 'view related content block'
+administer related content:
+  title: 'Administer related content Settings'
+  description: 'Access the related content administrative settings page'
+  restrict access: true
